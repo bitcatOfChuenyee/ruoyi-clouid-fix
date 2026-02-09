@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+    PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ruoyi.demo.mapper.DemoMapper">
+
+    <resultMap id="DemoResult" type="com.ruoyi.demo.domain.Demo">
+        <id property="id" column="id" />
+        <result property="name" column="name" />
+        <result property="code" column="code" />
+        <result property="type" column="type" />
+        <result property="status" column="status" />
+        <result property="sort" column="sort" />
+        <result property="remark" column="remark" />
+        <result property="createBy" column="create_by" />
+        <result property="createTime" column="create_time" />
+        <result property="updateBy" column="update_by" />
+        <result property="updateTime" column="update_time" />
+        <result property="delFlag" column="del_flag" />
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id, name, code, type, status, sort, remark,
+        create_by, create_time, update_by, update_time, del_flag
+    </sql>
+
+    <select id="selectById" resultMap="DemoResult">
+        SELECT <include refid="Base_Column_List" />
+        FROM t_demo
+        WHERE id = #{id} AND del_flag = '0'
+    </select>
+
+    <select id="selectList" resultMap="DemoResult">
+        <bind name="offset" value="(pageNum - 1) * pageSize" />
+        SELECT <include refid="Base_Column_List" />
+        FROM t_demo
+        <where>
+            del_flag = '0'
+            <if test="status != null and status != ''">
+                AND status = #{status}
+            </if>
+            <if test="type != null and type != ''">
+                AND type = #{type}
+            </if>
+            <if test="createTime != null">
+                AND create_time = #{createTime}
+            </if>
+            <if test="updateTime != null">
+                AND update_time = #{updateTime}
+            </if>
+            <if test="keyword != null and keyword != ''">
+                AND (
+                    name LIKE CONCAT('%', #{keyword}, '%')
+                    OR code LIKE CONCAT('%', #{keyword}, '%')
+                    OR type LIKE CONCAT('%', #{keyword}, '%')
+                )
+            </if>
+        </where>
+        ORDER BY sort ASC, id DESC
+        LIMIT #{pageSize} OFFSET #{offset}
+    </select>
+
+    <select id="selectCount" resultType="long">
+        SELECT COUNT(1)
+        FROM t_demo
+        <where>
+            del_flag = '0'
+            <if test="status != null and status != ''">
+                AND status = #{status}
+            </if>
+            <if test="type != null and type != ''">
+                AND type = #{type}
+            </if>
+            <if test="createTime != null">
+                AND create_time = #{createTime}
+            </if>
+            <if test="updateTime != null">
+                AND update_time = #{updateTime}
+            </if>
+            <if test="keyword != null and keyword != ''">
+                AND (
+                    name LIKE CONCAT('%', #{keyword}, '%')
+                    OR code LIKE CONCAT('%', #{keyword}, '%')
+                    OR type LIKE CONCAT('%', #{keyword}, '%')
+                )
+            </if>
+        </where>
+    </select>
+
+    <insert id="insert" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO t_demo
+        (name, code, type, status, sort, remark, create_by, create_time, update_by, update_time, del_flag)
+        VALUES
+        (#{name}, #{code}, #{type}, #{status}, #{sort}, #{remark}, #{createBy}, #{createTime}, #{updateBy},
+        #{updateTime}, #{delFlag})
+    </insert>
+
+    <update id="update">
+        UPDATE t_demo
+        <set>
+            <if test="name != null">name = #{name},</if>
+            <if test="code != null">code = #{code},</if>
+            <if test="type != null">type = #{type},</if>
+            <if test="status != null">status = #{status},</if>
+            <if test="sort != null">sort = #{sort},</if>
+            <if test="remark != null">remark = #{remark},</if>
+            <if test="updateBy != null">update_by = #{updateBy},</if>
+            <if test="updateTime != null">update_time = #{updateTime},</if>
+        </set>
+        WHERE id = #{id} AND del_flag = '0'
+    </update>
+
+    <update id="deleteById">
+        UPDATE t_demo
+        SET del_flag = '2'
+        WHERE id = #{id}
+    </update>
+
+</mapper>
