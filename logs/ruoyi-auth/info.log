@@ -1,0 +1,147 @@
+10:11:38.778 [main] INFO  c.a.n.c.e.SearchableProperties - [sortPropertySourceDefaultOrder,197] - properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+10:11:38.871 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+10:11:41.656 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+10:11:41.657 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+10:11:46.294 [main] INFO  c.r.a.RuoYiAuthApplication - [logStartupProfileInfo,638] - The following 1 profile is active: "dev"
+10:11:49.903 [main] INFO  o.a.c.h.Http11NioProtocol - [log,168] - Initializing ProtocolHandler ["http-nio-9200"]
+10:11:49.908 [main] INFO  o.a.c.c.StandardService - [log,168] - Starting service [Tomcat]
+10:11:49.908 [main] INFO  o.a.c.c.StandardEngine - [log,168] - Starting Servlet engine: [Apache Tomcat/9.0.112]
+10:11:50.290 [main] INFO  o.a.c.c.C.[.[.[/] - [log,168] - Initializing Spring embedded WebApplicationContext
+10:11:53.726 [main] INFO  c.a.c.s.SentinelWebMvcConfigurer - [addInterceptors,52] - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+10:11:58.032 [main] INFO  o.a.c.h.Http11NioProtocol - [log,168] - Starting ProtocolHandler ["http-nio-9200"]
+10:11:58.070 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+10:11:58.070 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+10:11:58.274 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,76] - nacos registry, DEFAULT_GROUP ruoyi-auth 192.168.161.1:9200 register finished
+10:11:59.470 [main] INFO  c.r.a.RuoYiAuthApplication - [logStarted,61] - Started RuoYiAuthApplication in 23.252 seconds (JVM running for 24.99)
+10:11:59.531 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,141] - [Nacos Config] Listening config: dataId=ruoyi-auth.yml, group=DEFAULT_GROUP
+10:11:59.532 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,141] - [Nacos Config] Listening config: dataId=ruoyi-auth-dev.yml, group=DEFAULT_GROUP
+10:11:59.532 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,141] - [Nacos Config] Listening config: dataId=ruoyi-auth, group=DEFAULT_GROUP
+10:12:40.619 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,95] - De-registering from Nacos Server now...
+10:12:40.632 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,115] - De-registration finished.
+10:17:51.447 [main] INFO  c.a.n.c.e.SearchableProperties - [sortPropertySourceDefaultOrder,197] - properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+10:17:51.534 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+10:17:53.548 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+10:17:53.549 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+10:17:56.603 [main] INFO  c.r.a.RuoYiAuthApplication - [logStartupProfileInfo,638] - The following 1 profile is active: "dev"
+10:17:59.201 [main] INFO  o.a.c.h.Http11NioProtocol - [log,168] - Initializing ProtocolHandler ["http-nio-9200"]
+10:17:59.203 [main] INFO  o.a.c.c.StandardService - [log,168] - Starting service [Tomcat]
+10:17:59.204 [main] INFO  o.a.c.c.StandardEngine - [log,168] - Starting Servlet engine: [Apache Tomcat/9.0.112]
+10:17:59.484 [main] INFO  o.a.c.c.C.[.[.[/] - [log,168] - Initializing Spring embedded WebApplicationContext
+10:18:01.948 [main] INFO  c.a.c.s.SentinelWebMvcConfigurer - [addInterceptors,52] - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+10:18:05.475 [main] INFO  o.a.c.h.Http11NioProtocol - [log,168] - Starting ProtocolHandler ["http-nio-9200"]
+10:18:05.499 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+10:18:05.499 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+10:18:05.682 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,76] - nacos registry, DEFAULT_GROUP ruoyi-auth 192.168.161.1:9200 register finished
+10:18:06.577 [main] INFO  c.r.a.RuoYiAuthApplication - [logStarted,61] - Started RuoYiAuthApplication in 16.804 seconds (JVM running for 17.459)
+10:18:06.624 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,141] - [Nacos Config] Listening config: dataId=ruoyi-auth.yml, group=DEFAULT_GROUP
+10:18:06.627 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,141] - [Nacos Config] Listening config: dataId=ruoyi-auth-dev.yml, group=DEFAULT_GROUP
+10:18:06.627 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,141] - [Nacos Config] Listening config: dataId=ruoyi-auth, group=DEFAULT_GROUP
+10:22:59.755 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,95] - De-registering from Nacos Server now...
+10:22:59.769 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,115] - De-registration finished.
+15:17:03.800 [main] INFO  c.a.n.c.e.SearchableProperties - [sortPropertySourceDefaultOrder,197] - properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+15:17:03.870 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+15:17:06.364 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+15:17:06.364 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+15:17:16.766 [main] INFO  c.r.a.RuoYiAuthApplication - [logStartupProfileInfo,638] - The following 1 profile is active: "dev"
+15:17:18.928 [main] INFO  o.a.c.h.Http11NioProtocol - [log,168] - Initializing ProtocolHandler ["http-nio-9200"]
+15:17:18.931 [main] INFO  o.a.c.c.StandardService - [log,168] - Starting service [Tomcat]
+15:17:18.931 [main] INFO  o.a.c.c.StandardEngine - [log,168] - Starting Servlet engine: [Apache Tomcat/9.0.112]
+15:17:19.133 [main] INFO  o.a.c.c.C.[.[.[/] - [log,168] - Initializing Spring embedded WebApplicationContext
+15:17:21.730 [main] INFO  c.a.c.s.SentinelWebMvcConfigurer - [addInterceptors,52] - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+15:17:26.000 [main] INFO  o.a.c.h.Http11NioProtocol - [log,168] - Starting ProtocolHandler ["http-nio-9200"]
+15:17:26.042 [main] INFO  o.a.c.h.Http11NioProtocol - [log,168] - Pausing ProtocolHandler ["http-nio-9200"]
+15:17:26.043 [main] INFO  o.a.c.c.StandardService - [log,168] - Stopping service [Tomcat]
+15:17:26.050 [main] INFO  o.a.c.h.Http11NioProtocol - [log,168] - Stopping ProtocolHandler ["http-nio-9200"]
+15:17:26.051 [main] INFO  o.a.c.h.Http11NioProtocol - [log,168] - Destroying ProtocolHandler ["http-nio-9200"]
+15:17:40.904 [main] INFO  c.a.n.c.e.SearchableProperties - [sortPropertySourceDefaultOrder,197] - properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+15:17:40.960 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+15:17:43.434 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+15:17:43.435 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+15:17:53.697 [main] INFO  c.r.a.RuoYiAuthApplication - [logStartupProfileInfo,638] - The following 1 profile is active: "dev"
+15:17:55.750 [main] INFO  o.a.c.h.Http11NioProtocol - [log,168] - Initializing ProtocolHandler ["http-nio-9200"]
+15:17:55.752 [main] INFO  o.a.c.c.StandardService - [log,168] - Starting service [Tomcat]
+15:17:55.753 [main] INFO  o.a.c.c.StandardEngine - [log,168] - Starting Servlet engine: [Apache Tomcat/9.0.112]
+15:17:55.992 [main] INFO  o.a.c.c.C.[.[.[/] - [log,168] - Initializing Spring embedded WebApplicationContext
+15:17:58.247 [main] INFO  c.a.c.s.SentinelWebMvcConfigurer - [addInterceptors,52] - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+15:18:02.709 [main] INFO  o.a.c.h.Http11NioProtocol - [log,168] - Starting ProtocolHandler ["http-nio-9200"]
+15:18:02.743 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+15:18:02.743 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+15:18:07.480 [main] INFO  o.a.c.h.Http11NioProtocol - [log,168] - Pausing ProtocolHandler ["http-nio-9200"]
+15:18:07.480 [main] INFO  o.a.c.c.StandardService - [log,168] - Stopping service [Tomcat]
+15:18:07.483 [main] INFO  o.a.c.h.Http11NioProtocol - [log,168] - Stopping ProtocolHandler ["http-nio-9200"]
+15:18:07.486 [main] INFO  o.a.c.h.Http11NioProtocol - [log,168] - Destroying ProtocolHandler ["http-nio-9200"]
+15:18:34.304 [main] INFO  c.a.n.c.e.SearchableProperties - [sortPropertySourceDefaultOrder,197] - properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+15:18:34.349 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+15:18:36.215 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+15:18:36.215 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+15:18:38.835 [main] INFO  c.r.a.RuoYiAuthApplication - [logStartupProfileInfo,638] - The following 1 profile is active: "dev"
+15:18:40.725 [main] INFO  o.a.c.h.Http11NioProtocol - [log,168] - Initializing ProtocolHandler ["http-nio-9200"]
+15:18:40.727 [main] INFO  o.a.c.c.StandardService - [log,168] - Starting service [Tomcat]
+15:18:40.727 [main] INFO  o.a.c.c.StandardEngine - [log,168] - Starting Servlet engine: [Apache Tomcat/9.0.112]
+15:18:40.912 [main] INFO  o.a.c.c.C.[.[.[/] - [log,168] - Initializing Spring embedded WebApplicationContext
+15:18:43.527 [main] INFO  c.a.c.s.SentinelWebMvcConfigurer - [addInterceptors,52] - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+15:18:47.249 [main] INFO  o.a.c.h.Http11NioProtocol - [log,168] - Starting ProtocolHandler ["http-nio-9200"]
+15:18:47.277 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+15:18:47.277 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+15:18:47.447 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,76] - nacos registry, DEFAULT_GROUP ruoyi-auth 192.168.161.1:9200 register finished
+15:18:48.315 [main] INFO  c.r.a.RuoYiAuthApplication - [logStarted,61] - Started RuoYiAuthApplication in 15.399 seconds (JVM running for 16.036)
+15:18:48.364 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,141] - [Nacos Config] Listening config: dataId=ruoyi-auth.yml, group=DEFAULT_GROUP
+15:18:48.365 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,141] - [Nacos Config] Listening config: dataId=ruoyi-auth-dev.yml, group=DEFAULT_GROUP
+15:18:48.365 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,141] - [Nacos Config] Listening config: dataId=ruoyi-auth, group=DEFAULT_GROUP
+15:20:45.293 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,95] - De-registering from Nacos Server now...
+15:20:45.304 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,115] - De-registration finished.
+15:24:16.372 [main] INFO  c.a.n.c.e.SearchableProperties - [sortPropertySourceDefaultOrder,197] - properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+15:24:16.439 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+15:24:18.641 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+15:24:18.641 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+15:24:22.061 [main] INFO  c.r.a.RuoYiAuthApplication - [logStartupProfileInfo,638] - The following 1 profile is active: "dev"
+15:24:24.606 [main] INFO  o.a.c.h.Http11NioProtocol - [log,168] - Initializing ProtocolHandler ["http-nio-9200"]
+15:24:24.608 [main] INFO  o.a.c.c.StandardService - [log,168] - Starting service [Tomcat]
+15:24:24.608 [main] INFO  o.a.c.c.StandardEngine - [log,168] - Starting Servlet engine: [Apache Tomcat/9.0.112]
+15:24:24.843 [main] INFO  o.a.c.c.C.[.[.[/] - [log,168] - Initializing Spring embedded WebApplicationContext
+15:24:27.469 [main] INFO  c.a.c.s.SentinelWebMvcConfigurer - [addInterceptors,52] - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+15:24:31.824 [main] INFO  o.a.c.h.Http11NioProtocol - [log,168] - Starting ProtocolHandler ["http-nio-9200"]
+15:24:31.859 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+15:24:31.860 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+15:24:32.027 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,76] - nacos registry, DEFAULT_GROUP ruoyi-auth 192.168.161.1:9200 register finished
+15:24:33.082 [main] INFO  c.r.a.RuoYiAuthApplication - [logStarted,61] - Started RuoYiAuthApplication in 18.544 seconds (JVM running for 19.469)
+15:24:33.138 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,141] - [Nacos Config] Listening config: dataId=ruoyi-auth.yml, group=DEFAULT_GROUP
+15:24:33.140 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,141] - [Nacos Config] Listening config: dataId=ruoyi-auth-dev.yml, group=DEFAULT_GROUP
+15:24:33.141 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,141] - [Nacos Config] Listening config: dataId=ruoyi-auth, group=DEFAULT_GROUP
+15:24:46.436 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,95] - De-registering from Nacos Server now...
+15:24:46.445 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,115] - De-registration finished.
+15:33:14.762 [main] INFO  c.a.n.c.e.SearchableProperties - [sortPropertySourceDefaultOrder,197] - properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+15:33:14.844 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+15:33:17.950 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+15:33:17.951 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+15:33:24.108 [main] INFO  c.r.a.RuoYiAuthApplication - [logStartupProfileInfo,638] - The following 1 profile is active: "dev"
+15:33:26.532 [main] INFO  o.a.c.h.Http11NioProtocol - [log,168] - Initializing ProtocolHandler ["http-nio-9200"]
+15:33:26.534 [main] INFO  o.a.c.c.StandardService - [log,168] - Starting service [Tomcat]
+15:33:26.534 [main] INFO  o.a.c.c.StandardEngine - [log,168] - Starting Servlet engine: [Apache Tomcat/9.0.112]
+15:33:26.727 [main] INFO  o.a.c.c.C.[.[.[/] - [log,168] - Initializing Spring embedded WebApplicationContext
+15:33:29.146 [main] INFO  c.a.c.s.SentinelWebMvcConfigurer - [addInterceptors,52] - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+15:33:33.056 [main] INFO  o.a.c.h.Http11NioProtocol - [log,168] - Starting ProtocolHandler ["http-nio-9200"]
+15:33:33.083 [main] INFO  o.a.c.h.Http11NioProtocol - [log,168] - Pausing ProtocolHandler ["http-nio-9200"]
+15:33:33.083 [main] INFO  o.a.c.c.StandardService - [log,168] - Stopping service [Tomcat]
+15:33:33.088 [main] INFO  o.a.c.h.Http11NioProtocol - [log,168] - Stopping ProtocolHandler ["http-nio-9200"]
+15:33:33.089 [main] INFO  o.a.c.h.Http11NioProtocol - [log,168] - Destroying ProtocolHandler ["http-nio-9200"]
+15:33:47.772 [main] INFO  c.a.n.c.e.SearchableProperties - [sortPropertySourceDefaultOrder,197] - properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+15:33:47.878 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+15:33:50.516 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+15:33:50.516 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+15:33:54.784 [main] INFO  c.r.a.RuoYiAuthApplication - [logStartupProfileInfo,638] - The following 1 profile is active: "dev"
+15:33:58.969 [main] INFO  o.a.c.h.Http11NioProtocol - [log,168] - Initializing ProtocolHandler ["http-nio-9200"]
+15:33:58.972 [main] INFO  o.a.c.c.StandardService - [log,168] - Starting service [Tomcat]
+15:33:58.973 [main] INFO  o.a.c.c.StandardEngine - [log,168] - Starting Servlet engine: [Apache Tomcat/9.0.112]
+15:33:59.576 [main] INFO  o.a.c.c.C.[.[.[/] - [log,168] - Initializing Spring embedded WebApplicationContext
+15:34:06.015 [main] INFO  c.a.c.s.SentinelWebMvcConfigurer - [addInterceptors,52] - [Sentinel Starter] register SentinelWebInterceptor with urlPatterns: [/**].
+15:34:20.608 [main] INFO  o.a.c.h.Http11NioProtocol - [log,168] - Starting ProtocolHandler ["http-nio-9200"]
+15:34:20.686 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+15:34:20.686 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+15:34:21.020 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,76] - nacos registry, DEFAULT_GROUP ruoyi-auth 192.168.161.1:9200 register finished
+15:34:24.863 [main] INFO  c.r.a.RuoYiAuthApplication - [logStarted,61] - Started RuoYiAuthApplication in 39.242 seconds (JVM running for 40.283)
+15:34:25.239 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,141] - [Nacos Config] Listening config: dataId=ruoyi-auth.yml, group=DEFAULT_GROUP
+15:34:25.262 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,141] - [Nacos Config] Listening config: dataId=ruoyi-auth-dev.yml, group=DEFAULT_GROUP
+15:34:25.269 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,141] - [Nacos Config] Listening config: dataId=ruoyi-auth, group=DEFAULT_GROUP
+15:39:03.999 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,95] - De-registering from Nacos Server now...
+15:39:04.015 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,115] - De-registration finished.

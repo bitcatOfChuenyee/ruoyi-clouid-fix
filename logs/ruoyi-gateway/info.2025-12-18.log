@@ -1,0 +1,97 @@
+00:34:58.216 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,95] - De-registering from Nacos Server now...
+00:34:58.237 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,115] - De-registration finished.
+00:35:12.325 [main] INFO  c.a.n.c.e.SearchableProperties - [sortPropertySourceDefaultOrder,197] - properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+00:35:12.403 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+00:35:16.565 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+00:35:16.566 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+00:35:20.888 [main] INFO  c.r.g.RuoYiGatewayApplication - [logStartupProfileInfo,638] - The following 1 profile is active: "dev"
+00:35:39.632 [main] INFO  c.a.c.s.g.s.SentinelSCGAutoConfiguration - [sentinelGatewayFilter,144] - [Sentinel SpringCloudGateway] register SentinelGatewayFilter with order: -2147483648
+00:35:43.010 [main] INFO  c.a.c.s.g.s.SentinelSCGAutoConfiguration - [sentinelGatewayBlockExceptionHandler,134] - [Sentinel SpringCloudGateway] register SentinelGatewayBlockExceptionHandler
+00:35:43.810 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+00:35:43.811 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+00:35:45.204 [boundedElastic-1] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+00:35:45.206 [boundedElastic-1] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+00:35:50.324 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,76] - nacos registry, DEFAULT_GROUP ruoyi-gateway 192.168.161.1:8080 register finished
+00:35:50.352 [main] INFO  c.a.c.n.d.NacosDiscoveryHeartBeatPublisher - [start,66] - Start nacos heartBeat task scheduler.
+00:35:50.436 [main] INFO  c.r.g.RuoYiGatewayApplication - [logStarted,61] - Started RuoYiGatewayApplication in 41.295 seconds (JVM running for 42.614)
+00:35:50.466 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,141] - [Nacos Config] Listening config: dataId=ruoyi-gateway, group=DEFAULT_GROUP
+00:35:50.469 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,141] - [Nacos Config] Listening config: dataId=ruoyi-gateway.yml, group=DEFAULT_GROUP
+00:35:50.472 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,141] - [Nacos Config] Listening config: dataId=ruoyi-gateway-dev.yml, group=DEFAULT_GROUP
+00:47:56.076 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,95] - De-registering from Nacos Server now...
+00:47:56.084 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,115] - De-registration finished.
+00:48:08.465 [main] INFO  c.a.n.c.e.SearchableProperties - [sortPropertySourceDefaultOrder,197] - properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+00:48:08.550 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+00:48:12.711 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+00:48:12.712 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+00:48:16.812 [main] INFO  c.r.g.RuoYiGatewayApplication - [logStartupProfileInfo,638] - The following 1 profile is active: "dev"
+00:48:33.045 [main] INFO  c.a.c.s.g.s.SentinelSCGAutoConfiguration - [sentinelGatewayFilter,144] - [Sentinel SpringCloudGateway] register SentinelGatewayFilter with order: -2147483648
+00:48:36.492 [main] INFO  c.a.c.s.g.s.SentinelSCGAutoConfiguration - [sentinelGatewayBlockExceptionHandler,134] - [Sentinel SpringCloudGateway] register SentinelGatewayBlockExceptionHandler
+00:48:37.567 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+00:48:37.568 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+00:48:38.679 [boundedElastic-1] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+00:48:38.680 [boundedElastic-1] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+00:48:43.821 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,76] - nacos registry, DEFAULT_GROUP ruoyi-gateway 192.168.161.1:8080 register finished
+00:48:43.837 [main] INFO  c.a.c.n.d.NacosDiscoveryHeartBeatPublisher - [start,66] - Start nacos heartBeat task scheduler.
+00:48:43.934 [main] INFO  c.r.g.RuoYiGatewayApplication - [logStarted,61] - Started RuoYiGatewayApplication in 38.555 seconds (JVM running for 39.649)
+00:48:43.957 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,141] - [Nacos Config] Listening config: dataId=ruoyi-gateway, group=DEFAULT_GROUP
+00:48:43.996 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,141] - [Nacos Config] Listening config: dataId=ruoyi-gateway.yml, group=DEFAULT_GROUP
+00:48:44.005 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,141] - [Nacos Config] Listening config: dataId=ruoyi-gateway-dev.yml, group=DEFAULT_GROUP
+00:49:49.388 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,95] - De-registering from Nacos Server now...
+00:49:49.400 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,115] - De-registration finished.
+00:49:57.721 [main] INFO  c.a.n.c.e.SearchableProperties - [sortPropertySourceDefaultOrder,197] - properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+00:49:57.798 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+00:50:01.638 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+00:50:01.638 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+00:50:05.714 [main] INFO  c.r.g.RuoYiGatewayApplication - [logStartupProfileInfo,638] - The following 1 profile is active: "dev"
+00:50:20.709 [main] INFO  c.a.c.s.g.s.SentinelSCGAutoConfiguration - [sentinelGatewayFilter,144] - [Sentinel SpringCloudGateway] register SentinelGatewayFilter with order: -2147483648
+00:50:22.783 [main] INFO  c.a.c.s.g.s.SentinelSCGAutoConfiguration - [sentinelGatewayBlockExceptionHandler,134] - [Sentinel SpringCloudGateway] register SentinelGatewayBlockExceptionHandler
+00:50:23.465 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+00:50:23.466 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+00:50:28.330 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+00:50:28.330 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+00:50:28.522 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,76] - nacos registry, DEFAULT_GROUP ruoyi-gateway 192.168.161.1:8080 register finished
+00:50:28.793 [main] INFO  c.a.c.n.d.NacosDiscoveryHeartBeatPublisher - [start,66] - Start nacos heartBeat task scheduler.
+00:50:28.844 [main] INFO  c.r.g.RuoYiGatewayApplication - [logStarted,61] - Started RuoYiGatewayApplication in 34.36 seconds (JVM running for 35.577)
+00:50:28.855 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,141] - [Nacos Config] Listening config: dataId=ruoyi-gateway, group=DEFAULT_GROUP
+00:50:28.856 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,141] - [Nacos Config] Listening config: dataId=ruoyi-gateway.yml, group=DEFAULT_GROUP
+00:50:28.858 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,141] - [Nacos Config] Listening config: dataId=ruoyi-gateway-dev.yml, group=DEFAULT_GROUP
+01:00:03.951 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,95] - De-registering from Nacos Server now...
+01:00:03.968 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,115] - De-registration finished.
+01:00:13.243 [main] INFO  c.a.n.c.e.SearchableProperties - [sortPropertySourceDefaultOrder,197] - properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+01:00:13.286 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+01:00:16.086 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+01:00:16.086 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+01:00:18.477 [main] INFO  c.r.g.RuoYiGatewayApplication - [logStartupProfileInfo,638] - The following 1 profile is active: "dev"
+01:00:29.204 [main] INFO  c.a.c.s.g.s.SentinelSCGAutoConfiguration - [sentinelGatewayFilter,144] - [Sentinel SpringCloudGateway] register SentinelGatewayFilter with order: -2147483648
+01:00:30.824 [main] INFO  c.a.c.s.g.s.SentinelSCGAutoConfiguration - [sentinelGatewayBlockExceptionHandler,134] - [Sentinel SpringCloudGateway] register SentinelGatewayBlockExceptionHandler
+01:00:31.321 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+01:00:31.321 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+01:00:35.105 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+01:00:35.105 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+01:00:35.256 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,76] - nacos registry, DEFAULT_GROUP ruoyi-gateway 192.168.161.1:8080 register finished
+01:00:35.441 [main] INFO  c.a.c.n.d.NacosDiscoveryHeartBeatPublisher - [start,66] - Start nacos heartBeat task scheduler.
+01:00:35.480 [main] INFO  c.r.g.RuoYiGatewayApplication - [logStarted,61] - Started RuoYiGatewayApplication in 24.546 seconds (JVM running for 25.296)
+01:00:35.489 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,141] - [Nacos Config] Listening config: dataId=ruoyi-gateway, group=DEFAULT_GROUP
+01:00:35.491 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,141] - [Nacos Config] Listening config: dataId=ruoyi-gateway.yml, group=DEFAULT_GROUP
+01:00:35.492 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,141] - [Nacos Config] Listening config: dataId=ruoyi-gateway-dev.yml, group=DEFAULT_GROUP
+01:01:40.697 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,95] - De-registering from Nacos Server now...
+01:01:40.715 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,115] - De-registration finished.
+01:01:50.199 [main] INFO  c.a.n.c.e.SearchableProperties - [sortPropertySourceDefaultOrder,197] - properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+01:01:50.251 [background-preinit] INFO  o.h.v.i.util.Version - [<clinit>,21] - HV000001: Hibernate Validator 6.2.5.Final
+01:01:53.171 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+01:01:53.171 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+01:01:55.596 [main] INFO  c.r.g.RuoYiGatewayApplication - [logStartupProfileInfo,638] - The following 1 profile is active: "dev"
+01:02:07.936 [main] INFO  c.a.c.s.g.s.SentinelSCGAutoConfiguration - [sentinelGatewayFilter,144] - [Sentinel SpringCloudGateway] register SentinelGatewayFilter with order: -2147483648
+01:02:09.891 [main] INFO  c.a.c.s.g.s.SentinelSCGAutoConfiguration - [sentinelGatewayBlockExceptionHandler,134] - [Sentinel SpringCloudGateway] register SentinelGatewayBlockExceptionHandler
+01:02:10.424 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+01:02:10.424 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+01:02:14.374 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+01:02:14.374 [main] INFO  c.a.n.p.a.s.c.ClientAuthPluginManager - [init,56] - [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+01:02:14.526 [main] INFO  c.a.c.n.r.NacosServiceRegistry - [register,76] - nacos registry, DEFAULT_GROUP ruoyi-gateway 192.168.161.1:8080 register finished
+01:02:14.685 [main] INFO  c.a.c.n.d.NacosDiscoveryHeartBeatPublisher - [start,66] - Start nacos heartBeat task scheduler.
+01:02:14.762 [main] INFO  c.r.g.RuoYiGatewayApplication - [logStarted,61] - Started RuoYiGatewayApplication in 26.917 seconds (JVM running for 27.697)
+01:02:14.772 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,141] - [Nacos Config] Listening config: dataId=ruoyi-gateway, group=DEFAULT_GROUP
+01:02:14.773 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,141] - [Nacos Config] Listening config: dataId=ruoyi-gateway.yml, group=DEFAULT_GROUP
+01:02:14.774 [main] INFO  c.a.c.n.r.NacosContextRefresher - [registerNacosListener,141] - [Nacos Config] Listening config: dataId=ruoyi-gateway-dev.yml, group=DEFAULT_GROUP
+01:03:38.863 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,95] - De-registering from Nacos Server now...
+01:03:38.872 [SpringApplicationShutdownHook] INFO  c.a.c.n.r.NacosServiceRegistry - [deregister,115] - De-registration finished.
